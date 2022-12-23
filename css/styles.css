@@ -233,6 +233,7 @@ body {
 
 .item-list {
   display: flex;
+  gap: 24px;
 }
 
 .item-pic {
