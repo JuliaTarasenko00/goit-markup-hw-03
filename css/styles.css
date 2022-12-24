@@ -177,14 +177,14 @@ body {
   background: #4d5ae5;
   color: var(--text-color);
   border-radius: 4px;
-  border: 1px solid transparent;
+  border: 1px solid #4d5ae5;
   padding: 16px 32px;
 }
 
 .heto-btn:hover,
 .heto-btn:focus {
   background: #404bbf;
-  border: 1px solid transparent;
+  border: 1px solid #404BBF;;
 }
 
 /* -------------benefits------------- */
@@ -202,6 +202,7 @@ body {
 }
 
 .benefits-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-pre-text {
@@ -234,10 +235,12 @@ body {
 .item-list {
   display: flex;
   gap: 24px;
+
 }
 
 .item-pic {
   width: calc((100%-48px) / 3);
+  border: 1px solid #E7E9FC;
 }
 
 /* ------------command--------- */
@@ -349,7 +352,7 @@ body {
   color: #4d5ae5;
   cursor: pointer;
   min-height: 48px;
-  border: 1px solid transparent;
+  border: 1px solid #E7E9FC;
   border-radius: 4px;
   padding: 12px 24px;
 }
@@ -358,7 +361,7 @@ body {
 .portfolio-btn:focus {
   background: #404bbf;
   color: #ffffff;
-  border: 1px solid transparent;
+  border: 1px solid #404bbf;
 }
 
 /* --------about------ */
@@ -391,5 +394,6 @@ body {
 
 .word {
   border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px;
 }
